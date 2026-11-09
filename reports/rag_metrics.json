@@ -1,0 +1,12 @@
+{
+  "k": 3,
+  "threshold": 0.1,
+  "n_questions_in_corpus": 14,
+  "n_questions_out_of_corpus": 6,
+  "precision_at_k": 0.3333333333333333,
+  "recall_at_k": 1.0,
+  "mrr": 1.0,
+  "in_corpus_accepted": 1.0,
+  "out_of_corpus_refused": 1.0,
+  "balanced_accuracy_refusal": 1.0
+}

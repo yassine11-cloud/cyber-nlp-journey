@@ -1,0 +1,56 @@
+{
+  "model": "camembert_finetuned",
+  "n_test": 372,
+  "accuracy": 0.7580645161290323,
+  "precision_spam": 1.0,
+  "recall_spam": 0.5871559633027523,
+  "f1_spam": 0.7398843930635838,
+  "confusion_matrix": [
+    [
+      154,
+      0
+    ],
+    [
+      90,
+      128
+    ]
+  ],
+  "base_model": "camembert-base",
+  "seed": 0,
+  "epochs": 3,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4061266840988649,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.06830194118607547,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.039104005871376316,
+      "val_accuracy": 1.0
+    }
+  ],
+  "per_template": {
+    "ham-8": {
+      "correct": 71,
+      "total": 71
+    },
+    "ham-9": {
+      "correct": 83,
+      "total": 83
+    },
+    "spam-6": {
+      "correct": 125,
+      "total": 125
+    },
+    "spam-7": {
+      "correct": 3,
+      "total": 93
+    }
+  }
+}

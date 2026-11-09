@@ -1,0 +1,41 @@
+{
+  "model": "tfidf_logreg",
+  "n_test": 372,
+  "accuracy": 0.967741935483871,
+  "precision_spam": 0.9904761904761905,
+  "recall_spam": 0.9541284403669725,
+  "f1_spam": 0.9719626168224299,
+  "confusion_matrix": [
+    [
+      152,
+      2
+    ],
+    [
+      10,
+      208
+    ]
+  ],
+  "seed": 0,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "per_template": {
+    "ham-8": {
+      "correct": 69,
+      "total": 71
+    },
+    "ham-9": {
+      "correct": 83,
+      "total": 83
+    },
+    "spam-6": {
+      "correct": 124,
+      "total": 125
+    },
+    "spam-7": {
+      "correct": 84,
+      "total": 93
+    }
+  }
+}

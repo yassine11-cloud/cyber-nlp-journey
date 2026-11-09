@@ -1,0 +1,7 @@
+# Dépendances des phases deep learning (installer en plus de requirements.txt)
+torch>=2.2
+transformers>=4.40
+sentencepiece>=0.2
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+anthropic>=0.40   # facultatif : uniquement pour la génération LLM du pipeline RAG
